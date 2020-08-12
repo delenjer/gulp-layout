@@ -1,5 +1,4 @@
-# Hand land
+# Gulp layout
 
-On branch master
-
-Demo link - https://handcheck.idap.pro/
+- npm install;
+- npm start;
