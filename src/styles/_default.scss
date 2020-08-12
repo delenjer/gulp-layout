@@ -1,0 +1,31 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: $main-fonts;
+  //font-size: 20px;
+  color: $main-color-text;
+  line-height: 1.4;
+  //word-break: break-word;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+a {
+  &:focus {
+    outline: none;
+  }
+}
